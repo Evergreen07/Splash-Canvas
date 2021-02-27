@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import {Container} from 'react-bootstrap'
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import Header from './Components/Header';
+import Upload from './Components/Upload';
+import SignIn from './Components/SignIn';
+import Footer from './Components/Footer';
+import Display from './Components/Display';
+import { useState } from 'react';
 
 function App() {
+  const[text, setText] = useState('');
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header setText={setText}/>
+      <Container className="container">
+          <Upload/>
+          <Display text={text}/>
+      </Container>
+      <Footer/>
     </div>
   );
 }
