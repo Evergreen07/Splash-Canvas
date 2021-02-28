@@ -3,16 +3,35 @@ import 'firebase/storage';
 import 'firebase/firestore';
 import 'firebase/auth';
 
+let api_,auth_,database_,project_,storage_,msg_,app_;
+if(process.env.NODE_ENV !== 'production'){
+  api_= process.env.REACT_APP_API;
+  auth_= process.env.REACT_APP_AUTH;
+  database_= process.env.REACT_APP_DATABASE;
+  project_= process.env.REACT_APP_PROJECT;
+  storage_= process.env.REACT_APP_STORAGE;
+  msg_= process.env.REACT_APP_MESSAGE;
+  app_= process.env.REACT_APP_APP;
+}
+else{
+  api_= process.env.API;
+  auth_= process.env.AUTH;
+  database_= process.env.DATABASE;
+  project_= process.env.PROJECT;
+  storage_= process.env.STORAGE;
+  msg_= process.env.MESSAGE;
+  app_= process.env.APP;
+}
 
 // Your web app's Firebase configuration
 var firebaseConfig = {
-  apiKey: process.env.REACT_APP_API,
-  authDomain: process.env.REACT_APP_AUTH,
-  databaseURL: process.env.REACT_APP_DATABASE,
-  projectId: process.env.REACT_APP_PROJECT,
-  storageBucket: process.env.REACT_APP_STORAGE,
-  messagingSenderId: process.env.REACT_APP_MESSAGE,
-  appId: process.env.REACT_APP_APP
+  apiKey: api_,
+  authDomain: auth_,
+  databaseURL: database_,
+  projectId: project_,
+  storageBucket: storage_,
+  messagingSenderId: msg_,
+  appId: app_
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
