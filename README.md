@@ -1,26 +1,16 @@
-## Getting Started with Create React App
+# Splash Canvas
+### An interactive, flexible & creative image gallery web-application that allows us to upload Images & store them, along with most desirable captions & description to create an awesome photo-album.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Features :
+* **View :-** Lets us view all our images in a grid gallery in *reverse-chronological order* with an enlarged pop-up view on clicking the image.
+* **Upload :-** Opens up a pop-up form to enter the Caption, Description & Image file by browsing from user's computer / mobile devices. 
+* **Authentication :-** Before uploading anything, a **Google Sign-In** feature enables only verified users to upload images.
+* **Alerts & Checks :-** Gives a *success alert* when the upload is completed, also a *danger alert* if the user tries to upload anything other than JPEG/PNG image files.
+* **Search :-** A filterable search list, which filters image cards based on the captions & keywords entered.
+* **Storage :-** Any image that is uploaded is stored safe & permanently in the database.
+ 
+### Technologies Used :
+* **Front-End :-** React, React-Bootstrap, HTML, CSS, JavaScript.
+* **Backend & Database :-** Firebase Cloud Firestore as Database & Firebase Authentication for Google Sign-In Authentication.
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Quick Demo :
