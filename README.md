@@ -1,7 +1,7 @@
 # Splash Canvas
 ### An interactive, flexible & creative image gallery web-application that allows us to upload Images & store them, along with most desirable captions & description to create an awesome photo-album.
 
-### Quick Demo (50 seconds Only):
+### Quick & Crisp Demo:
 https://user-images.githubusercontent.com/75972060/110082702-b9843780-7db3-11eb-8077-1a371cedd0fd.mp4
 
 ### Features :
