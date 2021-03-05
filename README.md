@@ -17,5 +17,5 @@ https://user-images.githubusercontent.com/75972060/110082702-b9843780-7db3-11eb-
 * **Backend & Database :-** Firebase Cloud Firestore as Database & Firebase Authentication for Google Sign-In Authentication.
 
 ### Updates : 
-This is kind of "Beta-Version", I have plans to add more features & make it even far more better & scalable. Meanwhile, you are free to suggest/modify the app.
+This is kind of "Beta-Version", I have plans to add more features & make it even better & more scalable. Meanwhile, you are free to suggest/modify the app.
 
