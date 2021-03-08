@@ -11,6 +11,7 @@ https://user-images.githubusercontent.com/75972060/110082702-b9843780-7db3-11eb-
 * **Alerts & Checks :** Gives a *success alert* when the upload is completed, also a *danger alert* if the user tries to upload anything other than JPEG/PNG image files.
 * **Search :** A filterable search list, which filters image cards based on the captions & keywords entered.
 * **Storage :** Any image that is uploaded is stored safe & permanently in the database.
+* **Responsiveness :** This application is completely responsive & produces a smooth user experience across Mobile Screens, Tablets & PCs.
  
 ### Technologies Used :
 * **Front-End :-** React, React-Bootstrap, HTML, CSS, JavaScript.
